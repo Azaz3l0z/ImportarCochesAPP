@@ -1,15 +1,19 @@
 <template>
     <div>
-        <span><img id="logo" src="../assets/logo.png" alt=""></span>
+        <span>
+            <router-link :to="{path: '/'}">
+                <img id="logo" src="../assets/logo.png" alt="Company logo"/>
+            </router-link>
+        </span>
         <span id="whatsapp" name="whatsapp">
             <a href="https://web.whatsapp.com/send?l=es&phone=34681121612" target="_blank">
                 <span>WhatsApp</span>
-                <img src="../assets/whatsapp.svg" alt="">
+                <img src="../assets/whatsapp.svg" alt="WhatsApp icon">
             </a>
         </span>
         <span>Área de Clientes</span>
         <span>Idioma</span>
-        <img id="animated-car" src="../assets/car.svg" alt="">
+        <img id="animated-car" src="../assets/car.svg" alt="Animated car moving left to right">
     </div>
 </template>
 
